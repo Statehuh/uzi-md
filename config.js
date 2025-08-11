@@ -1,28 +1,12 @@
-/*
-⚠️ PERINGATAN:
-Script ini **TIDAK BOLEH DIPERJUALBELIKAN** dalam bentuk apa pun!
 
-╔══════════════════════════════════════════════╗
-║                🛠️ INFORMASI SCRIPT           ║
-╠══════════════════════════════════════════════╣
-║ 📦 Version   : 4.2.9
-║ 👨‍💻 Developer  : Azhari Creative              ║
-║ 🌐 Website    : https://autoresbot.com       ║
-║ 💻 GitHub  : github.com/autoresbot/resbot-md ║
-╚══════════════════════════════════════════════╝
-
-📌 Mulai 11 April 2025,
-Script **Autoresbot** resmi menjadi **Open Source** dan dapat digunakan secara gratis:
-🔗 https://autoresbot.com
-*/
 
 const moment = require("moment-timezone");
 
 const CONNECTION = "pairing"; // qr atau pairing
-const OWNER_NAME = "Autoresbot";
-const NOMOR_BOT = "6288888888888"; // 628xx nomor wa
-const DESTINATION = "group"; // group , private, both
-const APIKEY = ""; // apikey dari autoresbot.com (paket apikey)
+const OWNER_NAME = "Uzi Doorman";
+const NOMOR_BOT = "6282135214781"; // 628xx nomor wa
+const DESTINATION = "both"; // group , private, both
+const APIKEY = "294767f1dd165a976f97016a"; // apikey dari autoresbot.com (paket apikey)
 const RATE_LIMIT = 3000; // 3 detik/chat
 const SIMILARITY = true; // Pencarian kemiripan command (true, false)
 const MODE = "production"; // [production, development] (jangan di ubah kecuali anda developer)
@@ -31,10 +15,10 @@ const VERSION = global.version; // don't edit
 const EMAIL = "autoresbot@gmail.com";
 const REGION = "Indonesia";
 const WEBSITE = "autoresbot.com";
-const DATA_OWNER = [,"6288888888888"];
+const DATA_OWNER = [,"6283150958207"];
 
 // Konfiqurasi Chat
-const ANTI_CALL = false; // jika true (setiap yang nelpon pribadi akan di block)
+const ANTI_CALL = true; // jika true (setiap yang nelpon pribadi akan di block)
 const AUTO_READ = false; // jika true (setiap chat akan di baca/centang 2 biru)
 const AUTO_BACKUP = false; // jika true (setiap restart server, data backup di kirimkan ke wa owner);
 const MIDNIGHT_RESTART = false; // Restart setiap jam 12 malam
@@ -42,14 +26,6 @@ const PRESENCE_UPDATE = ""; // unavailable, available, composing, recording, pau
 const TYPE_WELCOME = "1"; // 1, 2, 3, 4, 5, 6 text dan random
 const BG_WELCOME2 = "https://api.autoresbot.com/api/maker/bg-default";
 
-// Konfiqurasi Panel
-const PANEL_URL = "";
-const PANEL_PLTA = "";
-const PANEL_DESCRIPTION = "Butuh Bantuan Hubungi 628xxxxx";
-const PANEL_ID_EGG = 15;
-const PANEL_ID_LOCATION = 1;
-const PANEL_DEFAULT_DISK = 5120; // 5GB atau 0 (unlimited)
-const PANEL_DEFAULT_CPU = 90;
 
 // antibadword di grub
 const BADWORD_WARNING = 3; // Jumlah maksimum peringatan sebelum tindakan diambil

@@ -1,21 +1,4 @@
-# 🛠️ Informasi Script
 
-```plaintext
-╔═════════════════════════════════╗
-║ 🛠️ Informasi Script
-╠═════════════════════════════════╣
-║ 📦 Version    : 4.2.9
-║ 👨‍💻 Developer  : Azhari Creative
-║ 🌐 Website    : autoresbot.com
-║ 💻 GitHub     : github.com/autoresbot/resbot-md
-╚═════════════════════════════════╝
-```
-
-```javascript
-⚠️ Peringatan:
-SCRIPT INI TIDAK BOLEH DIPERJUALBELIKAN.
-[👉 autoresbot.com](https://autoresbot.com)
-```
 
 # API USE from api.autoresbot.com
 
